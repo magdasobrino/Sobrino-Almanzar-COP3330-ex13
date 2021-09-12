@@ -40,6 +40,8 @@ public class Exercise13 {
         System.out.print("$" + df.format(principal) +" invested at " + interestRate +"% for " +
                 df.format(numOfYears) + " years compounded " + df.format(periodsPerYear)
                 + " times per year is $" + df.format(amountAccrued) + ".");
-        
-    }
-}
+       
+    System.exit(0);
+	}//end of main
+
+}//end of program
